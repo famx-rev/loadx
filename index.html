@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loadbar — Founders helping founders get their first traffic</title>
+    <meta
+      name="description"
+      content="Add one line of code. A small bar appears on your site showing another founder's startup. In return, yours gets shown on theirs. Free forever, no money, ever."
+    />
+    <meta property="og:title" content="Loadbar — Founders helping founders get their first traffic" />
+    <meta
+      property="og:description"
+      content="Add one line of code. A small bar appears on your site showing another founder's startup. In return, yours gets shown on theirs. Free forever, no money, ever."
+    />
+    <meta property="og:type" content="website" />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('loadbar-theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = stored || (prefersDark ? 'dark' : 'light');
+          if (theme === 'dark') document.documentElement.classList.add('dark');
+        } catch (e) {}
+      })();
+    </script>
+    <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+
+<script
+  src="https://loadapi.vercel.app/api/widget/loader.js"
+  data-startup-id="4744a836-9f28-4df7-81dc-376737f7643d"
+></script>
+    
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
