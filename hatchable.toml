@@ -1,8 +1,0 @@
-name = "vite-react-typescript-starter"
-tagline = "Vite + React + TypeScript web app"
-description = "A starter web app built with React, Vite, TypeScript, Supabase, and Tailwind CSS."
-category = "Developer Tools"
-tags = ["react", "typescript", "vite", "supabase", "tailwindcss"]
-
-[ai]
-required = false
